@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-12T15:16:51 CEST" name="Default suite" finished-at="2023-04-12T15:17:03 CEST" duration-ms="11899">
+    <groups>
+    </groups>
+    <test started-at="2023-04-12T15:16:51 CEST" name="Default test" finished-at="2023-04-12T15:17:03 CEST" duration-ms="11899">
+      <class name="Academy.Desq.Preferences02">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.Desq.Preferences02@74d1dc36]" started-at="2023-04-12T15:16:51 CEST" name="launchApplication" finished-at="2023-04-12T15:16:56 CEST" duration-ms="4963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="changePreferences(java.util.HashMap)[pri:0, instance:Academy.Desq.Preferences02@74d1dc36]" started-at="2023-04-12T15:16:56 CEST" name="changePreferences" data-provider="getData" finished-at="2023-04-12T15:17:02 CEST" duration-ms="6206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{wantedTimeHash=10:00, wantedDateHash=12, expectedBookedDateHash=12.04. ×, passwordHash=6zZchkrfQyLHEw3333, emailHash=joko2909@enjoying.rs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePreferences -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.Desq.Preferences02@74d1dc36]" started-at="2023-04-12T15:17:02 CEST" name="closeBrowser" finished-at="2023-04-12T15:17:03 CEST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.Desq.Preferences02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
